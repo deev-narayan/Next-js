@@ -32,6 +32,10 @@ export default function Page() {
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
         </div>
+        <Link href="/dashboard"
+        className="flex items-center gap-12 self-start rounded-lg bg-blue-500 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base" >
+          <span>Dashboard</span> 
+        </Link>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           <AcmeLogo />
           {/* Add Hero Images Here */}
